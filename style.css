@@ -11,7 +11,7 @@ html {
 img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .main { 
   background: rgb(51, 49, 49);
@@ -275,4 +275,9 @@ input[type=radio] {
   .slide-text {
     font-size: 1.8rem;
   }
+}
+
+#love {
+  font-size: 4rem;
+  color: white;
 }

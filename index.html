@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mem slider</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="main">
+    <div class="slides-container">
+      <input type="radio" id="slide-1" name="slides" checked>
+      <input type="radio" id="slide-2" name="slides">
+      <input type="radio" id="slide-3" name="slides">
+      <input type="radio" id="slide-4" name="slides">
+      <div class="carousel" id="slides">
+        <div class="carousel-overflow">
+          <div class="slide-item slide-1">
+            <img src="assets/img/SeanBeanBoromir.jpg">
+          </div>
+          <div class="slide-item slide-2">
+            <img src="assets/img/MYX4W4kgtMSd4qahAOcPy4qAATk-1920.jpg">
+          </div>
+          <div class="slide-item slide-3">
+            <img src="assets/img/scale_1200.webp">
+          </div>
+          <div class="slide-item slide-4">
+            <img src="assets/img/efd9ba063c8660c0a77fef82f95c3cf8.jpg">
+          </div>
+        </div>
+      </div>
+      <ol class="dots-container" id="slider-dots">
+        <li> <label for="slide-1" class="dot dot-1"><span class="span-dot"></span></label></li>
+        <li><label for="slide-2" class="dot dot-2"><span class="span-dot"></span></label> </li>
+        <li><label for="slide-3" class="dot dot-3"><span class="span-dot"></span></label> </li>
+        <li> <label for="slide-4" class="dot dot-4"><span class="span-dot"></span></label></li>
+      </ol>
+      <div class="text-container" id="slider-text">
+        <div class="text-overflow">
+          <div class="slide-text-wrapper text-1">
+            <p class="slide-text">You can't just do that</p>
+          </div>
+          <div class="slide-text-wrapper text-2">
+            <p class="slide-text">I'm sad</p>
+          </div>
+          <div class="slide-text-wrapper text-3">
+            <p class="slide-text">When did you sign up for a new online course and think that you will pass it</p>
+          </div>
+          <div class="slide-text-wrapper text-4">
+            <p class="slide-text">Please</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
